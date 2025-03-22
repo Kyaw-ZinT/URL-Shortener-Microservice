@@ -21,17 +21,17 @@ The URL Shortener Microservice is a simple API that allows users to submit a lon
 - Or for development with nodemon:
 
 ### API Usage
-1. Shorten a URL
+#### 1. Shorten a URL
 - Endpoint: POST /api/shorturl
 - Request Body (JSON):
 - Response:
 
-2. Redirect to Original URL
+#### 2. Redirect to Original URL
 - Endpoint: GET /api/shorturl/:short_url
 - Example: GET /api/shorturl/1
 - Response: Redirects to the original URL.
 
-3. Invalid URL Handling
+#### 3. Invalid URL Handling
 - Example: POST /api/shorturl with { "url": "invalid_url" }
 - Response:
 
